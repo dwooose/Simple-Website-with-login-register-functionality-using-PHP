@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #405D4C;
+}
+
+
+/* HEADER */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 5%;
+    border-bottom: 2px solid #708B7B;
+}
+.header .logo {
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+	font-size: 1.8rem;
+}
+.header .logo span{
+	color: #C6AC8A;
+}
+.header a:hover{
+	color: #C6AC8A;
+}
+.header .logo span:hover{
+	color: white;
+}
+
+.header .navbar{
+    margin-top: 0.5rem;
+}
+.header .navbar a{
+    text-decoration: none;
+    margin-top: 10rem;
+    margin: 1.5rem;
+    font-size: 1.1rem;
+    color: white;
+    text-transform: uppercase;
+}
+.header .navbar a:hover{
+    color: #C6AC8A;
+    border-bottom: .1rem solid #C6AC8A;
+    padding-bottom: 0.3rem;
+}
+.right-links a{
+    padding: 0 10px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.main-box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.main-box .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}
+.bottom{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/*UPDATE*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+.box{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    border-radius: 20px;
+    box-shadow: 0 32px 64px -48px rgb(4, 4, 4);
+
+}
+.profile{
+    padding: 20px 20px;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+.profile img{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3b895c;
+}
+.uname{
+    color: #405D4C;
+    font-size: 1.8rem;
+}
+p{
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+/*TABLE*/
+h2{
+    text-align: center;
+    color: #405D4C;
+    
+}
+
+.box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+}
+.box th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #405D4C;
+}
+.box th {
+    background-color: #708B7B;
+    color: #ffffff;
+}
+.box tr:hover {
+    background-color: #f1f1f1;
+}

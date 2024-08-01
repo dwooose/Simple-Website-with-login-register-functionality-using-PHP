@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #405D4C;
+}
+/* HEADER */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 5%;
+    border-bottom: 2px solid #708B7B;
+}
+.header .logo {
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+	font-size: 1.8rem;
+}
+.header .logo span{
+	color: #C6AC8A;
+}
+.header a:hover{
+	color: #C6AC8A;
+}
+.header .logo span:hover{
+	color: white;
+}
+
+.header .navbar{
+    margin-top: 0.5rem;
+}
+.header .navbar a{
+    text-decoration: none;
+    margin-top: 10rem;
+    margin: 1.5rem;
+    font-size: 1.1rem;
+    color: white;
+    text-transform: uppercase;
+}
+.header .navbar a:hover{
+    color: #C6AC8A;
+    border-bottom: .1rem solid #C6AC8A;
+    padding-bottom: 0.3rem;
+}
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.update{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register .box{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 0 32px 64px -48px rgb(4, 4, 4);
+}
+.register_form{
+    flex: 1;
+}
+.image-box img {
+    width: 80%;
+}
+.form-box form .field{
+    margin-bottom: 8px;
+}
+.form-box form .field p{
+    color: red;
+    font-size: 1rem;
+}
+.form-box form .input input, .form-box form .input select{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #708B7B;
+    outline: none;
+}
+.form-box header{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #708B7B;
+    margin-bottom: 10px;
+}
+.column {
+    display: flex;
+    gap: 10px;
+}
+.column .field{
+    flex: 1;
+    width: 50px;
+}
+.button{
+    height: 35px;
+    background: #405D4C;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+}
+.button:hover{
+    background: #708B7B;
+}
+.link{
+    margin-bottom: 15px;
+}
+.message{
+    text-align: center;
+    background: #f9eded;
+    padding: 15px 5px;
+    border: 1px solid #405D4C;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: red;
+}
+.success{
+    text-align: center;
+    background: #ebfff3;
+    padding: 15px 5px;
+    border: 1px solid #405D4C;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #405D4C;
+}
